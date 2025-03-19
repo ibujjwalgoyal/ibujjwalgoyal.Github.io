@@ -54,6 +54,12 @@ a {
   transition: 0.5s;
 }
 
+a-no-decor {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
 a:active, a:focus {
   color: #FF9000;
   outline: none;

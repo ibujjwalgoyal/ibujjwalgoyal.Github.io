@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #F4893E85;
+  background: #B54A00B0;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -225,6 +225,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  box-shadow: 0px 0px 50px 10px #000
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
@@ -733,6 +734,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 auto 40px auto;
   position: relative;
   text-align: center;
+  align-content: center;
   border-radius: 10px;
   border: solid #000;
 }
@@ -755,14 +757,6 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: #f96c00;
   color: white;
   border: solid #000000;
-}
-.project-box span{
-  position: relative;
-  top: 30%;
-  left: 0;
-  padding: 5px;
-  margin-top: -30;
-  width: 100%;
 }
 .box-shadow-orange{
   box-shadow: 10px 10px 5px #FF9000;
